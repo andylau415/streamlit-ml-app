@@ -19,7 +19,7 @@ def main():
     # Define input fields for user to enter feature values with proper labels
     features = []
     for i, feature in enumerate(feature_names):
-        feature_value = st.number_input(f'{feature}', min_value=0.0, value=float(sample_data[0, i]))
+        feature_value = st.number_input(f'{feature}', min_value=0.0, value=0.0))
         features.append(feature_value)
 
     # Handle cases where input features may need categorical encoding
