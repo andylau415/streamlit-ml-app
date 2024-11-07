@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Define feature names and descriptions
-feature_names = ['target', 'HighBP', 'HighChol', 'CholCheck', 'BMI', 'Smoker', 'Stroke',
+feature_names = ['HighBP', 'HighChol', 'CholCheck', 'BMI', 'Smoker', 'Stroke',
        'HeartDiseaseorAttack', 'PhysActivity', 'Fruits', 'Veggies',
        'HvyAlcoholConsump', 'AnyHealthcare', 'NoDocbcCost', 'GenHlth',
        'MentHlth', 'PhysHlth', 'DiffWalk', 'Sex', 'Age', 'Education',
