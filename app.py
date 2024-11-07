@@ -14,7 +14,7 @@ def main():
     st.write("Enter the values for the features to get a prediction.")
 
     # Load sample data to pre-load default values
-    sample_data = joblib.load('scaler.pkl').inverse_transform(np.array([[0]*30]))  # Placeholder for the actual sample data
+    # sample_data = joblib.load('scaler.pkl').inverse_transform(np.array([[0]*30]))  # Placeholder for the actual sample data
 
     # Define input fields for user to enter feature values with proper labels
     features = []
